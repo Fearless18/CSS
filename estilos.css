@@ -1,0 +1,11 @@
+*{
+	font-family: verdana;
+}
+
+.abuelo .titulo {
+	color: red
+}
+
+.abuelo>.titulo {
+	color: blue
+}
