@@ -1,6 +1,9 @@
 *{
 	font-family: verdana;
 }
+body{
+	color: black;
+}
 
 .abuelo .titulo {
 	color: red
@@ -8,4 +11,13 @@
 
 .abuelo>.titulo {
 	color: blue
+}
+
+.tipo2 {
+	font-family: "times new roman";
+	color: darkorange;
+}
+
+a{
+	color: inherit;
 }
