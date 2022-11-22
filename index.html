@@ -22,7 +22,9 @@
 	<h2 class="tipo2">Hola! tengo otra tipo <a href="">pero el link hereda color del padre</a>, jajaja</h2>
 </div>
 <div>
-	<h2>Resultado exámenes</h2>
+	<center><h2>Resultado exámenes</h2></center>
+	<center>etiqueta center</center>
+
 	<p>Carlos <meter value="66" min="0" max="100" high="70"></meter></p>
 	<p>Pedro <meter value="22" min="0" max="100" high="70"></meter></p>
 	<p>Liv <meter value="94" min="0" max="100" high="70"></meter></p>
@@ -30,6 +32,32 @@
 </div>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bn8QPRYWAdk" frameborder="0" allowfullscreen></iframe>
 
+<h3>Formulario</h3>
+<form>
+	<label for="nombre">Tu nombre</label>
+	<input type="text" id="nombre" name="nombre" placeholder="" value=""><br>
+	<label >Tu edad
+	<input type="number" id="apellido" name="apellido" placeholder="" value=""></label><br>
+	<label >Tu e-mail
+	<input type="email" id="email" name="email" placeholder="" value=""></label><br>
+	<label >Tu password
+	<input type="password" id="password" name="password" placeholder="" value=""></label><br><br>
+	<select>
+		<option>opción 1</option>
+		<option>opción 2</option>
+		<option>opción 3</option>
+	</select>
+	<br><br>
 
-</body>
+	<input type="checkbox" id="rojo"><label for="rojo">Rojo</label> - 
+	<input type="checkbox" id="azul"><label for="azul">Azul</label> - 
+	<input type="checkbox" id="verde"><label for="verde">Verde</label>
+	<br>
+	<input type="radio" id="perro" name="animales"><label for="perro">Perro</label> - 
+	<input type="radio" id="gato" name="animales"><label for="gato">Gato</label> - 
+	<input type="radio" id="loro" name="animales"><label for="loro">Loro</label> - <br><br>
+	<input type="submit" value="Enviar formulario">
+</form>
+<br><br>
+</body>	
 </html>
