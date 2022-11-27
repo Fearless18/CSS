@@ -1,8 +1,20 @@
 *{
 	font-family: verdana;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
 }
+
 body{
 	color: black;
+}
+
+header {
+	position: reltive;
+	margin: auto;
+	width: 1000px;
+	height: 120px;
+	background: #444;
 }
 
 .abuelo .titulo {
