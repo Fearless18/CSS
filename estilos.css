@@ -10,8 +10,8 @@ body{
 }
 
 header {
-	position: reltive;
-	margin: auto;
+	position: relative; /* para centrar */
+	margin: 10px auto;      /* en la página */
 	width: 1000px;
 	height: 120px;
 	background: #444;
