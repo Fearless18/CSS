@@ -17,6 +17,29 @@ header {
 	background: #444;
 }
 
+nav {
+	position: relative; /* para centrar */
+	margin: 10px auto;      /* en la página */
+	width: 1000px;
+	height: 50px;
+	background: #888;
+}
+
+#top{
+	position: relative; /* para centrar */
+	margin: 10px auto;      /* en la página */
+	width: 1000px;
+	height: 200px;
+	background: #666;
+}
+
+section {
+	position: relative; /* para centrar */
+	margin: 10px auto;      /* en la página */
+	width: 1000px;
+	height: 800px;
+	background: #ddd;
+}
 .abuelo .titulo {
 	color: red
 }
