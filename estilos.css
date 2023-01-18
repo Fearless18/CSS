@@ -52,8 +52,17 @@ nav {
 	position: relative;  /* para centrar */
 	margin: 10px auto;   /* en la página */
 	width: 1000px;
-	height: 60px;
-	background: #aaa;
+	height: 50px;
+	/*background: #aaa;*/
+}
+
+.botonnav {
+	float: left; 		/*para que flote de izq a der*/
+	width: 196px;
+	height: 50px;
+	margin: 0px 2px;
+	background: #888;
+
 }
 
 #top {
