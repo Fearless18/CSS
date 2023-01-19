@@ -25,7 +25,7 @@
 <!-- Header -->
 
 <!-- barra de navegación -->
-<nav>
+<nav id="barranav">
 	<ul>
 		<li class="botonnav"></li>
 		<li class="botonnav"></li>
@@ -39,44 +39,57 @@
 
 <!-- Div Top -->
 <div id="top">
-	<center><h2>Resultado exámenes</h2></center>
-	<center>etiqueta center</center>
+	<ul>
+		<li>
+			<center><h2>Resultado exámenes</h2></center>
+			<center>etiqueta center</center>
+		</li>
+		<li>
+			<p>Carlos <meter value="66" min="0" max="100" high="70"></meter></p>
+			<p>Pedro <meter value="22" min="0" max="100" high="70"></meter></p>
+			<p>Liv <meter value="94" min="0" max="100" high="70"></meter></p>
+			<p>Perla <meter value="99" min="0" max="100" high="70"></meter></p>
+		</li>
+		<li>
+			<p>Noelia <meter value="63" min="0" max="100" high="70"></meter></p>
+			<p>Jorge <meter value="32" min="0" max="100" high="70"></meter></p>
+			<p>Roberta <meter value="54" min="0" max="100" high="70"></meter></p>
+			<p>Jacinto <meter value="90" min="0" max="100" high="70"></meter></p>
+		</li>
+	</ul>
+	
 
-	<p>Carlos <meter value="66" min="0" max="100" high="70"></meter></p>
-	<p>Pedro <meter value="22" min="0" max="100" high="70"></meter></p>
-	<p>Liv <meter value="94" min="0" max="100" high="70"></meter></p>
-	<p>Perla <meter value="99" min="0" max="100" high="70"></meter></p>
+	
 </div>
 <!-- Div Top -->
 
 
 <section>
 <!-- Section Aside izq -->
-	<aside>
-<div class="abuelo">
-	<div class="padre">
-		<h1 class="titulo">Título nieto</H1>
-			.abuelo .titulo {color: red}
-	</div>
-	<h1 class="titulo">título hijo <a href="">link hereda color del padre</a></h1>
-	.abuelo>.titulo {color: blue}
+	<aside id="izq">
+		<div class="abuelo">
+			<div class="padre">
+				<h1 class="titulo">Título nieto</H1>
+					.abuelo .titulo {color: red}
+			</div>
+		<h1 class="titulo">título hijo <a href="">link hereda color del padre</a></h1>
+		.abuelo>.titulo {color: blue}
 
-	<h2 class="tipo2">Hola! tengo otra tipo <a href="">pero el link hereda color del padre</a>, jajaja</h2>
-</div>
-</aside>
+		<h2 class="tipo2">Hola! tengo otra tipo <a href="">pero el link hereda color del padre</a>, jajaja</h2>
+		</div>
+	</aside>
 <!-- Section Aside izq -->
 
 
 <!-- Section Article -->
 <article>
-	
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/bn8QPRYWAdk" frameborder="0" allowfullscreen></iframe>
 </article>
 <!-- Section Article -->
 
 
 <!-- Section Aside der -->
-<aside>
+<aside id="der">
 	<h3>Formulario</h3>
 	<form>
 		<label for="nombre">Tu nombre</label>

@@ -56,37 +56,68 @@ nav {
 	/*background: #aaa;*/
 }
 
+#barranav ul {
+	display: flex;						/* para justificar */
+	justify-content: space-between;		/* para justificar */
+}
 .botonnav {
-	float: left; 		/*para que flote de izq a der*/
+	float: left;			/*para que flote de izq a der*/
 	width: 196px;
 	height: 50px;
-	margin: 0px 2px;
 	background: #888;
 
 }
 
 #top {
-	position: relative; /* para centrar */
+	position: relative;		/* para centrar */
 	margin: 10px auto;      /* en la página */
 	width: 1000px;
 	height: 200px;
-	background: #666;
+	/*background: #666;*/
 }
 
+#top ul {
+	display: flex;						/* para justificar */
+	justify-content: space-between;		/* para justificar */
+}
+
+#top ul li {
+	float: left;			/*para que flote de izq a der*/
+	width: 329px;
+	height: 198px;
+	/*margin: 0px 2px;*/
+	background: #888;
+
+
+}
 section {
-	position: relative; /* para centrar */
+	position: relative;		/* para centrar */
 	margin: 10px auto;      /* en la página */
 	width: 1000px;
 	height: 800px;
 	background: #ddd;
 }
-
+aside#izq{
+	position: absolute;
+	left: 0;
+	width: 200px;
+	height: 800px;
+	background: #aaa;
+}
 article {
-
+	position: absolute;
+	left: 200px;
+	width: 600px;
+	height: 800px;
+	background: #999;
 }
 
-aside {
-
+aside#der{
+	position: absolute;
+	right: 0;
+	width: 200px;
+	height: 800px;
+	background: #aaa;
 }
 
 footer {
