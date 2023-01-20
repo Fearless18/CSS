@@ -88,8 +88,12 @@ nav {
 	/*margin: 0px 2px;*/
 	background: #888;
 
-
 }
+
+h2, h3 {
+	font-family: 'Open Sans', sans-serif;
+}
+
 section {
 	position: relative;		/* para centrar */
 	margin: 10px auto;      /* en la página */
