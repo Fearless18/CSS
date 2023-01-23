@@ -9,9 +9,12 @@ body{
 	color: black;
 }
 
+a {
+	text-decoration: none;
+}
 header {
-	position: relative; /* para centrar */
-	margin: 10px auto;      /* en la página */
+	position: relative; 	/* para centrar */
+	margin: 10px auto;		/* en la página */
 	width: 1000px;
 	height: 120px;
 	background: #444;
@@ -24,6 +27,10 @@ header {
 	width: 120px;
 	height: 60px;
 	background: #fff;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.7em;
+	line-height: 60px;		/* centrado del texto en vertical */
 }
 .redes {
 	position: absolute;
@@ -31,21 +38,27 @@ header {
 	height: 40px;
 	border-radius: 100px;
 	background: black;
+	text-align: center;
+	line-height: 40px;
+	color: white;
 }
 
 #rsocial1 {
 	top: 40px;
 	right: 140px;
+	background: blue;
 }
 
 #rsocial2 {
 	top: 40px;
 	right: 80px;
+	background: red;
 }
 
 #rsocial3 {
 	top: 40px;
 	right: 20px;
+	background: green;
 }
 
 nav {
@@ -65,6 +78,10 @@ nav {
 	width: 196px;
 	height: 50px;
 	background: #888;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	line-height: 50px;		/* centrado del texto en vertical */
 
 }
 
@@ -79,14 +96,17 @@ nav {
 #top ul {
 	display: flex;						/* para justificar */
 	justify-content: space-between;		/* para justificar */
+
 }
 
 #top ul li {
 	float: left;			/*para que flote de izq a der*/
 	width: 329px;
 	height: 198px;
-	/*margin: 0px 2px;*/
-	background: #888;
+	margin-top: 10px;
+	/*background: #888;*/
+	text-align: center;
+
 
 }
 
