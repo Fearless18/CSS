@@ -110,37 +110,62 @@ nav {
 
 }
 
-h2, h3 {
+h2, h3{
 	font-family: 'Open Sans', sans-serif;
 }
 
-section {
+section{
 	position: relative;		/* para centrar */
 	margin: 10px auto;      /* en la página */
 	width: 1000px;
 	height: 800px;
 	background: #ddd;
 }
+
 aside#izq{
 	position: absolute;
 	left: 0;
-	width: 200px;
-	height: 800px;
+	width: 160px;
+	height: 760px;
+	padding: 20px;
 	background: #aaa;
 }
-article {
+
+aside#izq ul li{
+	list-style: square;
+	list-style-position: inside;
+	list-style-image: url(imagenes/chincheta.png);
+	background-color: #441;
+	color: white;
+	margin: 5px;
+	padding: 5px;
+	}
+
+article{
 	position: absolute;
 	left: 200px;
-	width: 600px;
-	height: 800px;
+	width: 560px;
+	height: 760px;
+	padding: 20px;
 	background: #999;
+	content-visibility: auto;
+	
+}
+
+article h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2.5em;
+	margin: 15px;
+
+
 }
 
 aside#der{
 	position: absolute;
 	right: 0;
-	width: 200px;
-	height: 800px;
+	width: 160px;
+	height: 760px;
+	padding: 20px;
 	background: #aaa;
 }
 
