@@ -169,6 +169,21 @@ aside#der{
 	background: #aaa;
 }
 
+aside#der input[type="text"], 
+aside#der input[type="number"],
+aside#der input[type="email"],
+aside#der input[type="password"] {
+	width: 100%;
+	background: #fbb;
+}
+
+/*puedo seleccionar algo por el Type*/
+aside#der input[type="submit"]{
+	width: 100%;
+	background: #bbf;
+}
+
+
 footer {
 	position: relative; /* para centrar */
 	margin: 10px auto;      /* en la página */
